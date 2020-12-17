@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC478EAF258B8B7F008A2D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */; };
+		DC478EB1258B8B7F008A2D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */; };
+		DC478EB3258B8B7F008A2D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EB2258B8B7F008A2D13 /* ViewController.swift */; };
+		DC478EB6258B8B7F008A2D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB4258B8B7F008A2D13 /* Main.storyboard */; };
+		DC478EB8258B8B80008A2D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB7258B8B80008A2D13 /* Assets.xcassets */; };
+		DC478EBB258B8B80008A2D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB9258B8B80008A2D13 /* LaunchScreen.storyboard */; };
+		DC478EC6258B8B80008A2D13 /* MomSitterWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EC5258B8B80008A2D13 /* MomSitterWorkTests.swift */; };
+		DC478ED1258B8B80008A2D13 /* MomSitterWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478ED0258B8B80008A2D13 /* MomSitterWorkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC478EC2258B8B80008A2D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC478EA3258B8B7F008A2D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC478EAA258B8B7F008A2D13;
+			remoteInfo = MomSitterWork;
+		};
+		DC478ECD258B8B80008A2D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC478EA3258B8B7F008A2D13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC478EAA258B8B7F008A2D13;
+			remoteInfo = MomSitterWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC478EAB258B8B7F008A2D13 /* MomSitterWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomSitterWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC478EB2258B8B7F008A2D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC478EB5258B8B7F008A2D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC478EB7258B8B80008A2D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC478EBA258B8B80008A2D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC478EBC258B8B80008A2D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC478EC1258B8B80008A2D13 /* MomSitterWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomSitterWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC478EC5258B8B80008A2D13 /* MomSitterWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomSitterWorkTests.swift; sourceTree = "<group>"; };
+		DC478EC7258B8B80008A2D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC478ECC258B8B80008A2D13 /* MomSitterWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomSitterWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC478ED0258B8B80008A2D13 /* MomSitterWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomSitterWorkUITests.swift; sourceTree = "<group>"; };
+		DC478ED2258B8B80008A2D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC478EA8258B8B7F008A2D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478EBE258B8B80008A2D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478EC9258B8B80008A2D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC478EA2258B8B7F008A2D13 = {
+			isa = PBXGroup;
+			children = (
+				DC478EAD258B8B7F008A2D13 /* MomSitterWork */,
+				DC478EC4258B8B80008A2D13 /* MomSitterWorkTests */,
+				DC478ECF258B8B80008A2D13 /* MomSitterWorkUITests */,
+				DC478EAC258B8B7F008A2D13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC478EAC258B8B7F008A2D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC478EAB258B8B7F008A2D13 /* MomSitterWork.app */,
+				DC478EC1258B8B80008A2D13 /* MomSitterWorkTests.xctest */,
+				DC478ECC258B8B80008A2D13 /* MomSitterWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC478EAD258B8B7F008A2D13 /* MomSitterWork */ = {
+			isa = PBXGroup;
+			children = (
+				DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */,
+				DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */,
+				DC478EB2258B8B7F008A2D13 /* ViewController.swift */,
+				DC478EB4258B8B7F008A2D13 /* Main.storyboard */,
+				DC478EB7258B8B80008A2D13 /* Assets.xcassets */,
+				DC478EB9258B8B80008A2D13 /* LaunchScreen.storyboard */,
+				DC478EBC258B8B80008A2D13 /* Info.plist */,
+			);
+			path = MomSitterWork;
+			sourceTree = "<group>";
+		};
+		DC478EC4258B8B80008A2D13 /* MomSitterWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC478EC5258B8B80008A2D13 /* MomSitterWorkTests.swift */,
+				DC478EC7258B8B80008A2D13 /* Info.plist */,
+			);
+			path = MomSitterWorkTests;
+			sourceTree = "<group>";
+		};
+		DC478ECF258B8B80008A2D13 /* MomSitterWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC478ED0258B8B80008A2D13 /* MomSitterWorkUITests.swift */,
+				DC478ED2258B8B80008A2D13 /* Info.plist */,
+			);
+			path = MomSitterWorkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC478EAA258B8B7F008A2D13 /* MomSitterWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC478ED5258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWork" */;
+			buildPhases = (
+				DC478EA7258B8B7F008A2D13 /* Sources */,
+				DC478EA8258B8B7F008A2D13 /* Frameworks */,
+				DC478EA9258B8B7F008A2D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomSitterWork;
+			productName = MomSitterWork;
+			productReference = DC478EAB258B8B7F008A2D13 /* MomSitterWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC478EC0258B8B80008A2D13 /* MomSitterWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC478ED8258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWorkTests" */;
+			buildPhases = (
+				DC478EBD258B8B80008A2D13 /* Sources */,
+				DC478EBE258B8B80008A2D13 /* Frameworks */,
+				DC478EBF258B8B80008A2D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC478EC3258B8B80008A2D13 /* PBXTargetDependency */,
+			);
+			name = MomSitterWorkTests;
+			productName = MomSitterWorkTests;
+			productReference = DC478EC1258B8B80008A2D13 /* MomSitterWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC478ECB258B8B80008A2D13 /* MomSitterWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC478EDB258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWorkUITests" */;
+			buildPhases = (
+				DC478EC8258B8B80008A2D13 /* Sources */,
+				DC478EC9258B8B80008A2D13 /* Frameworks */,
+				DC478ECA258B8B80008A2D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC478ECE258B8B80008A2D13 /* PBXTargetDependency */,
+			);
+			name = MomSitterWorkUITests;
+			productName = MomSitterWorkUITests;
+			productReference = DC478ECC258B8B80008A2D13 /* MomSitterWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC478EA3258B8B7F008A2D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Dong-Eon Kim";
+				TargetAttributes = {
+					DC478EAA258B8B7F008A2D13 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DC478EC0258B8B80008A2D13 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DC478EAA258B8B7F008A2D13;
+					};
+					DC478ECB258B8B80008A2D13 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DC478EAA258B8B7F008A2D13;
+					};
+				};
+			};
+			buildConfigurationList = DC478EA6258B8B7F008A2D13 /* Build configuration list for PBXProject "MomSitterWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC478EA2258B8B7F008A2D13;
+			productRefGroup = DC478EAC258B8B7F008A2D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC478EAA258B8B7F008A2D13 /* MomSitterWork */,
+				DC478EC0258B8B80008A2D13 /* MomSitterWorkTests */,
+				DC478ECB258B8B80008A2D13 /* MomSitterWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC478EA9258B8B7F008A2D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC478EBB258B8B80008A2D13 /* LaunchScreen.storyboard in Resources */,
+				DC478EB8258B8B80008A2D13 /* Assets.xcassets in Resources */,
+				DC478EB6258B8B7F008A2D13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478EBF258B8B80008A2D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478ECA258B8B80008A2D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC478EA7258B8B7F008A2D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC478EB3258B8B7F008A2D13 /* ViewController.swift in Sources */,
+				DC478EAF258B8B7F008A2D13 /* AppDelegate.swift in Sources */,
+				DC478EB1258B8B7F008A2D13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478EBD258B8B80008A2D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC478EC6258B8B80008A2D13 /* MomSitterWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC478EC8258B8B80008A2D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC478ED1258B8B80008A2D13 /* MomSitterWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC478EC3258B8B80008A2D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC478EAA258B8B7F008A2D13 /* MomSitterWork */;
+			targetProxy = DC478EC2258B8B80008A2D13 /* PBXContainerItemProxy */;
+		};
+		DC478ECE258B8B80008A2D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC478EAA258B8B7F008A2D13 /* MomSitterWork */;
+			targetProxy = DC478ECD258B8B80008A2D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC478EB4258B8B7F008A2D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC478EB5258B8B7F008A2D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC478EB9258B8B80008A2D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC478EBA258B8B80008A2D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC478ED3258B8B80008A2D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC478ED4258B8B80008A2D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC478ED6258B8B80008A2D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC478ED7258B8B80008A2D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC478ED9258B8B80008A2D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomSitterWork.app/MomSitterWork";
+			};
+			name = Debug;
+		};
+		DC478EDA258B8B80008A2D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomSitterWork.app/MomSitterWork";
+			};
+			name = Release;
+		};
+		DC478EDC258B8B80008A2D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomSitterWork;
+			};
+			name = Debug;
+		};
+		DC478EDD258B8B80008A2D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2559X825A8;
+				INFOPLIST_FILE = MomSitterWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomSitterWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC478EA6258B8B7F008A2D13 /* Build configuration list for PBXProject "MomSitterWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC478ED3258B8B80008A2D13 /* Debug */,
+				DC478ED4258B8B80008A2D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC478ED5258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC478ED6258B8B80008A2D13 /* Debug */,
+				DC478ED7258B8B80008A2D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC478ED8258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC478ED9258B8B80008A2D13 /* Debug */,
+				DC478EDA258B8B80008A2D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC478EDB258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC478EDC258B8B80008A2D13 /* Debug */,
+				DC478EDD258B8B80008A2D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC478EA3258B8B7F008A2D13 /* Project object */;
+}
