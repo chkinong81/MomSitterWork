@@ -3,18 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DC478EAF258B8B7F008A2D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */; };
-		DC478EB1258B8B7F008A2D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */; };
-		DC478EB3258B8B7F008A2D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EB2258B8B7F008A2D13 /* ViewController.swift */; };
 		DC478EB6258B8B7F008A2D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB4258B8B7F008A2D13 /* Main.storyboard */; };
 		DC478EB8258B8B80008A2D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB7258B8B80008A2D13 /* Assets.xcassets */; };
 		DC478EBB258B8B80008A2D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC478EB9258B8B80008A2D13 /* LaunchScreen.storyboard */; };
 		DC478EC6258B8B80008A2D13 /* MomSitterWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EC5258B8B80008A2D13 /* MomSitterWorkTests.swift */; };
 		DC478ED1258B8B80008A2D13 /* MomSitterWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478ED0258B8B80008A2D13 /* MomSitterWorkUITests.swift */; };
+		DC478EE5258B8C44008A2D13 /* APISearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EE4258B8C44008A2D13 /* APISearchUserViewController.swift */; };
+		DC478EE7258B8C54008A2D13 /* LocalSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EE6258B8C54008A2D13 /* LocalSearchViewController.swift */; };
+		DC478EE9258B8C61008A2D13 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EE8258B8C61008A2D13 /* MainViewController.swift */; };
+		DC478EEB258B9755008A2D13 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EEA258B9755008A2D13 /* TabbarView.swift */; };
+		DC478EF1258B9965008A2D13 /* TabbarItemBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EF0258B9965008A2D13 /* TabbarItemBaseCell.swift */; };
+		DC478EF8258B9C7E008A2D13 /* TabbarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EF7258B9C7E008A2D13 /* TabbarModel.swift */; };
+		DC478EFA258BA17B008A2D13 /* SearchTabbarItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EF9258BA17B008A2D13 /* SearchTabbarItemCell.swift */; };
+		DC478EFC258BA196008A2D13 /* SearchTabbarItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC478EFB258BA196008A2D13 /* SearchTabbarItemCell.xib */; };
+		DC478EFE258BA535008A2D13 /* SearchPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC478EFD258BA535008A2D13 /* SearchPageViewController.swift */; };
+		DC486926258D91C700817FBD /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486925258D91C600817FBD /* ViewModelBindable.swift */; };
+		DC486928258D924300817FBD /* APISearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486927258D924300817FBD /* APISearchViewModel.swift */; };
+		DC48692E258D99D300817FBD /* LocalSearchUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48692D258D99D300817FBD /* LocalSearchUserStorage.swift */; };
+		DC486934258DB76F00817FBD /* SearchUserLocalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486933258DB76F00817FBD /* SearchUserLocalModel.swift */; };
+		DC486937258E141A00817FBD /* HangulStringDecomposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486936258E141A00817FBD /* HangulStringDecomposition.swift */; };
+		DC486939258E4D2400817FBD /* APIRequestPagingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC486938258E4D2400817FBD /* APIRequestPagingInfo.swift */; };
+		DC4BBC6C258CEFA2007EFB7B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC6B258CEFA2007EFB7B /* APIService.swift */; };
+		DC4BBC70258CF200007EFB7B /* UserSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC6F258CF200007EFB7B /* UserSearchAPI.swift */; };
+		DC4BBC75258CF218007EFB7B /* UserSearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4BBC71258CF216007EFB7B /* UserSearchHeaderView.xib */; };
+		DC4BBC76258CF218007EFB7B /* GitHubUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC72258CF216007EFB7B /* GitHubUserTableViewCell.swift */; };
+		DC4BBC77258CF218007EFB7B /* GitHubUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4BBC73258CF217007EFB7B /* GitHubUserTableViewCell.xib */; };
+		DC4BBC78258CF218007EFB7B /* UserSearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC74258CF218007EFB7B /* UserSearchHeaderView.swift */; };
+		DC4BBC7C258CFB63007EFB7B /* SearchUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC7B258CFB63007EFB7B /* SearchUserModel.swift */; };
+		DC4BBC7F258CFE86007EFB7B /* APISearchUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BBC7E258CFE86007EFB7B /* APISearchUserStorage.swift */; };
+		DF984F96F10C74465EE7E920 /* Pods_MomSitterWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B61ED36AEF864D9773AF3D /* Pods_MomSitterWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4422877B47D66C9EAC554F /* Pods-MomSitterWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomSitterWork.release.xcconfig"; path = "Target Support Files/Pods-MomSitterWork/Pods-MomSitterWork.release.xcconfig"; sourceTree = "<group>"; };
+		96B61ED36AEF864D9773AF3D /* Pods_MomSitterWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomSitterWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8693DEB6FDF4E1C07250AE5 /* Pods-MomSitterWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomSitterWork.debug.xcconfig"; path = "Target Support Files/Pods-MomSitterWork/Pods-MomSitterWork.debug.xcconfig"; sourceTree = "<group>"; };
 		DC478EAB258B8B7F008A2D13 /* MomSitterWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomSitterWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC478EB2258B8B7F008A2D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC478EB5258B8B7F008A2D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC478EB7258B8B80008A2D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC478EBA258B8B80008A2D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,29 @@
 		DC478ECC258B8B80008A2D13 /* MomSitterWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomSitterWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC478ED0258B8B80008A2D13 /* MomSitterWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomSitterWorkUITests.swift; sourceTree = "<group>"; };
 		DC478ED2258B8B80008A2D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC478EE4258B8C44008A2D13 /* APISearchUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISearchUserViewController.swift; sourceTree = "<group>"; };
+		DC478EE6258B8C54008A2D13 /* LocalSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchViewController.swift; sourceTree = "<group>"; };
+		DC478EE8258B8C61008A2D13 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DC478EEA258B9755008A2D13 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		DC478EF0258B9965008A2D13 /* TabbarItemBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItemBaseCell.swift; sourceTree = "<group>"; };
+		DC478EF7258B9C7E008A2D13 /* TabbarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarModel.swift; sourceTree = "<group>"; };
+		DC478EF9258BA17B008A2D13 /* SearchTabbarItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabbarItemCell.swift; sourceTree = "<group>"; };
+		DC478EFB258BA196008A2D13 /* SearchTabbarItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTabbarItemCell.xib; sourceTree = "<group>"; };
+		DC478EFD258BA535008A2D13 /* SearchPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewController.swift; sourceTree = "<group>"; };
+		DC486925258D91C600817FBD /* ViewModelBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindable.swift; sourceTree = "<group>"; };
+		DC486927258D924300817FBD /* APISearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISearchViewModel.swift; sourceTree = "<group>"; };
+		DC48692D258D99D300817FBD /* LocalSearchUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchUserStorage.swift; sourceTree = "<group>"; };
+		DC486933258DB76F00817FBD /* SearchUserLocalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserLocalModel.swift; sourceTree = "<group>"; };
+		DC486936258E141A00817FBD /* HangulStringDecomposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangulStringDecomposition.swift; sourceTree = "<group>"; };
+		DC486938258E4D2400817FBD /* APIRequestPagingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestPagingInfo.swift; sourceTree = "<group>"; };
+		DC4BBC6B258CEFA2007EFB7B /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		DC4BBC6F258CF200007EFB7B /* UserSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchAPI.swift; sourceTree = "<group>"; };
+		DC4BBC71258CF216007EFB7B /* UserSearchHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserSearchHeaderView.xib; sourceTree = "<group>"; };
+		DC4BBC72258CF216007EFB7B /* GitHubUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUserTableViewCell.swift; sourceTree = "<group>"; };
+		DC4BBC73258CF217007EFB7B /* GitHubUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GitHubUserTableViewCell.xib; sourceTree = "<group>"; };
+		DC4BBC74258CF218007EFB7B /* UserSearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchHeaderView.swift; sourceTree = "<group>"; };
+		DC4BBC7B258CFB63007EFB7B /* SearchUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserModel.swift; sourceTree = "<group>"; };
+		DC4BBC7E258CFE86007EFB7B /* APISearchUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISearchUserStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF984F96F10C74465EE7E920 /* Pods_MomSitterWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99E340861D747767CD055C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8693DEB6FDF4E1C07250AE5 /* Pods-MomSitterWork.debug.xcconfig */,
+				4F4422877B47D66C9EAC554F /* Pods-MomSitterWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC478EA2258B8B7F008A2D13 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				DC478EC4258B8B80008A2D13 /* MomSitterWorkTests */,
 				DC478ECF258B8B80008A2D13 /* MomSitterWorkUITests */,
 				DC478EAC258B8B7F008A2D13 /* Products */,
+				99E340861D747767CD055C98 /* Pods */,
+				F430C5E33E3CBE5B471964D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +157,8 @@
 		DC478EAD258B8B7F008A2D13 /* MomSitterWork */ = {
 			isa = PBXGroup;
 			children = (
+				DC478EDE258B8BBD008A2D13 /* Classes */,
 				DC478EAE258B8B7F008A2D13 /* AppDelegate.swift */,
-				DC478EB0258B8B7F008A2D13 /* SceneDelegate.swift */,
-				DC478EB2258B8B7F008A2D13 /* ViewController.swift */,
 				DC478EB4258B8B7F008A2D13 /* Main.storyboard */,
 				DC478EB7258B8B80008A2D13 /* Assets.xcassets */,
 				DC478EB9258B8B80008A2D13 /* LaunchScreen.storyboard */,
@@ -128,6 +185,116 @@
 			path = MomSitterWorkUITests;
 			sourceTree = "<group>";
 		};
+		DC478EDE258B8BBD008A2D13 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC486935258E13C000817FBD /* Util */,
+				DC4BBC7D258CFE76007EFB7B /* Storage */,
+				DC478EF6258B9C63008A2D13 /* Model */,
+				DC478EE1258B8BD5008A2D13 /* UI */,
+				DC478EE0258B8BCC008A2D13 /* Service */,
+				DC478EDF258B8BC6008A2D13 /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DC478EDF258B8BC6008A2D13 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC486925258D91C600817FBD /* ViewModelBindable.swift */,
+				DC486927258D924300817FBD /* APISearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC478EE0258B8BCC008A2D13 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BBC6A258CEF93007EFB7B /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC478EE1258B8BD5008A2D13 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DC478EE3258B8BE6008A2D13 /* View */,
+				DC478EE2258B8BDF008A2D13 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DC478EE2258B8BDF008A2D13 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC478EE4258B8C44008A2D13 /* APISearchUserViewController.swift */,
+				DC478EE6258B8C54008A2D13 /* LocalSearchViewController.swift */,
+				DC478EE8258B8C61008A2D13 /* MainViewController.swift */,
+				DC478EFD258BA535008A2D13 /* SearchPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DC478EE3258B8BE6008A2D13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BBC72258CF216007EFB7B /* GitHubUserTableViewCell.swift */,
+				DC4BBC73258CF217007EFB7B /* GitHubUserTableViewCell.xib */,
+				DC4BBC74258CF218007EFB7B /* UserSearchHeaderView.swift */,
+				DC4BBC71258CF216007EFB7B /* UserSearchHeaderView.xib */,
+				DC478EEA258B9755008A2D13 /* TabbarView.swift */,
+				DC478EF0258B9965008A2D13 /* TabbarItemBaseCell.swift */,
+				DC478EF9258BA17B008A2D13 /* SearchTabbarItemCell.swift */,
+				DC478EFB258BA196008A2D13 /* SearchTabbarItemCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC478EF6258B9C63008A2D13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BBC7B258CFB63007EFB7B /* SearchUserModel.swift */,
+				DC478EF7258B9C7E008A2D13 /* TabbarModel.swift */,
+				DC486933258DB76F00817FBD /* SearchUserLocalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC486935258E13C000817FBD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DC486936258E141A00817FBD /* HangulStringDecomposition.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DC4BBC6A258CEF93007EFB7B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BBC6F258CF200007EFB7B /* UserSearchAPI.swift */,
+				DC4BBC6B258CEFA2007EFB7B /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DC4BBC7D258CFE76007EFB7B /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BBC7E258CFE86007EFB7B /* APISearchUserStorage.swift */,
+				DC48692D258D99D300817FBD /* LocalSearchUserStorage.swift */,
+				DC486938258E4D2400817FBD /* APIRequestPagingInfo.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F430C5E33E3CBE5B471964D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B61ED36AEF864D9773AF3D /* Pods_MomSitterWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC478ED5258B8B80008A2D13 /* Build configuration list for PBXNativeTarget "MomSitterWork" */;
 			buildPhases = (
+				41B288D6C12DC188AED67248 /* [CP] Check Pods Manifest.lock */,
 				DC478EA7258B8B7F008A2D13 /* Sources */,
 				DC478EA8258B8B7F008A2D13 /* Frameworks */,
 				DC478EA9258B8B7F008A2D13 /* Resources */,
+				9F3CBE7076705F2767F7EC13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +403,9 @@
 			files = (
 				DC478EBB258B8B80008A2D13 /* LaunchScreen.storyboard in Resources */,
 				DC478EB8258B8B80008A2D13 /* Assets.xcassets in Resources */,
+				DC4BBC75258CF218007EFB7B /* UserSearchHeaderView.xib in Resources */,
+				DC4BBC77258CF218007EFB7B /* GitHubUserTableViewCell.xib in Resources */,
+				DC478EFC258BA196008A2D13 /* SearchTabbarItemCell.xib in Resources */,
 				DC478EB6258B8B7F008A2D13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +426,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41B288D6C12DC188AED67248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MomSitterWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3CBE7076705F2767F7EC13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomSitterWork/Pods-MomSitterWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomSitterWork/Pods-MomSitterWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MomSitterWork/Pods-MomSitterWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC478EA7258B8B7F008A2D13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC478EB3258B8B7F008A2D13 /* ViewController.swift in Sources */,
+				DC486939258E4D2400817FBD /* APIRequestPagingInfo.swift in Sources */,
+				DC4BBC7C258CFB63007EFB7B /* SearchUserModel.swift in Sources */,
+				DC478EEB258B9755008A2D13 /* TabbarView.swift in Sources */,
+				DC486928258D924300817FBD /* APISearchViewModel.swift in Sources */,
+				DC478EFE258BA535008A2D13 /* SearchPageViewController.swift in Sources */,
+				DC486926258D91C700817FBD /* ViewModelBindable.swift in Sources */,
+				DC4BBC70258CF200007EFB7B /* UserSearchAPI.swift in Sources */,
+				DC4BBC78258CF218007EFB7B /* UserSearchHeaderView.swift in Sources */,
+				DC4BBC76258CF218007EFB7B /* GitHubUserTableViewCell.swift in Sources */,
+				DC478EF1258B9965008A2D13 /* TabbarItemBaseCell.swift in Sources */,
+				DC486937258E141A00817FBD /* HangulStringDecomposition.swift in Sources */,
+				DC4BBC6C258CEFA2007EFB7B /* APIService.swift in Sources */,
+				DC4BBC7F258CFE86007EFB7B /* APISearchUserStorage.swift in Sources */,
+				DC478EFA258BA17B008A2D13 /* SearchTabbarItemCell.swift in Sources */,
+				DC478EF8258B9C7E008A2D13 /* TabbarModel.swift in Sources */,
+				DC478EE5258B8C44008A2D13 /* APISearchUserViewController.swift in Sources */,
+				DC48692E258D99D300817FBD /* LocalSearchUserStorage.swift in Sources */,
+				DC478EE7258B8C54008A2D13 /* LocalSearchViewController.swift in Sources */,
 				DC478EAF258B8B7F008A2D13 /* AppDelegate.swift in Sources */,
-				DC478EB1258B8B7F008A2D13 /* SceneDelegate.swift in Sources */,
+				DC486934258DB76F00817FBD /* SearchUserLocalModel.swift in Sources */,
+				DC478EE9258B8C61008A2D13 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +664,13 @@
 		};
 		DC478ED6258B8B80008A2D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8693DEB6FDF4E1C07250AE5 /* Pods-MomSitterWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2559X825A8;
 				INFOPLIST_FILE = MomSitterWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,17 +678,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC478ED7258B8B80008A2D13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4422877B47D66C9EAC554F /* Pods-MomSitterWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2559X825A8;
 				INFOPLIST_FILE = MomSitterWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +698,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Destiny.MomSitterWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

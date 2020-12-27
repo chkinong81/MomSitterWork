@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchItem" id="ySo-Tr-Bid" customClass="SearchTabbarItemCell" customModule="MomSitterWork" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4L2-nj-IOJ">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fig-wv-Df5">
+                        <rect key="frame" x="10" y="0.0" width="180" height="38"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIz-42-4Jy">
+                        <rect key="frame" x="0.0" y="38" width="200" height="2"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="9nf-kC-uLx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xIz-42-4Jy" firstAttribute="top" secondItem="Fig-wv-Df5" secondAttribute="bottom" id="4M9-yx-kB0"/>
+                    <constraint firstItem="Fig-wv-Df5" firstAttribute="leading" secondItem="4L2-nj-IOJ" secondAttribute="leading" constant="10" id="SWN-eu-Y2X"/>
+                    <constraint firstAttribute="bottom" secondItem="xIz-42-4Jy" secondAttribute="bottom" id="U9N-xi-RGb"/>
+                    <constraint firstAttribute="trailing" secondItem="Fig-wv-Df5" secondAttribute="trailing" constant="10" id="UBU-si-w6u"/>
+                    <constraint firstItem="xIz-42-4Jy" firstAttribute="leading" secondItem="4L2-nj-IOJ" secondAttribute="leading" id="VMg-nq-cfe"/>
+                    <constraint firstAttribute="trailing" secondItem="xIz-42-4Jy" secondAttribute="trailing" id="iYG-7n-Xr7"/>
+                    <constraint firstItem="Fig-wv-Df5" firstAttribute="top" secondItem="4L2-nj-IOJ" secondAttribute="top" id="p35-No-14f"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="Fig-wv-Df5" id="UmA-RY-OHn"/>
+                <outlet property="underLineView" destination="xIz-42-4Jy" id="6ku-vX-wUT"/>
+            </connections>
+            <point key="canvasLocation" x="-424" y="-4"/>
+        </collectionViewCell>
+    </objects>
+</document>
